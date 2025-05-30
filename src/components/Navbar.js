@@ -39,7 +39,6 @@ function Navbar() {
           <button className="btn yellow">👨‍🎓 Admission</button>
         </div>
       </div>
-      /* eslint-disable jsx-a11y/anchor-is-valid */
       <nav className="main-navbar">
         <ul className="navbar-links">
           <li>
@@ -99,7 +98,6 @@ function Navbar() {
           </li>
         </ul>
       </nav>
-      /* eslint-enable jsx-a11y/anchor-is-valid */
     </div>
   );
 }
