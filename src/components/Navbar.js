@@ -44,25 +44,25 @@ function Navbar() {
       <nav className="main-navbar">
         <ul className="navbar-links">
           <li>
-            <a href="#">HOME</a>
+            <a href="javascript:void(0)">HOME</a>
           </li>
           <li>
-            <a href="#">ABOUT US</a>
+            <a href="javascript:void(0)">ABOUT US</a>
           </li>
           <li>
-            <a href="#">ACADEMIC</a>
+            <a href="javascript:void(0)">ACADEMIC</a>
           </li>
           <li>
-            <a href="#">STUDENT LIFE</a>
+            <a href="javascript:void(0)">STUDENT LIFE</a>
           </li>
           <li>
-            <a href="#">ACHIEVEMENTS</a>
+            <a href="javascript:void(0)">ACHIEVEMENTS</a>
           </li>
           <li>
-            <a href="#">GALLERY</a>
+            <a href="javascript:void(0)">GALLERY</a>
           </li>
           <li>
-            <a href="#">INFRASTRUCTURE</a>
+            <a href="javascript:void(0)">INFRASTRUCTURE</a>
           </li>
           <li>
             <a href="#">FACULTY</a>
