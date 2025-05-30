@@ -41,38 +41,59 @@ function Navbar() {
       <nav className="main-navbar">
         <ul className="navbar-links">
           <li>
-            <a href="javascript:void(0)">HOME</a>
+            <a href="/" className="nav-button">
+              HOME
+            </a>
           </li>
           <li>
-            <a href="javascript:void(0)">ABOUT US</a>
+            <a href="/about" className="nav-button">
+              ABOUT US
+            </a>
           </li>
           <li>
-            <a href="javascript:void(0)">ACADEMIC</a>
+            <a href="/academic" className="nav-button">
+              ACADEMIC
+            </a>
           </li>
           <li>
-            <a href="javascript:void(0)">STUDENT LIFE</a>
+            <a href="/student-life" className="nav-button">
+              STUDENT LIFE
+            </a>
           </li>
           <li>
-            <a href="javascript:void(0)">ACHIEVEMENTS</a>
+            <a href="/achievements" className="nav-button">
+              ACHIEVEMENTS
+            </a>
           </li>
           <li>
-            <a href="javascript:void(0)">GALLERY</a>
+            <a href="/gallery" className="nav-button">
+              GALLERY
+            </a>
           </li>
           <li>
-            <a href="javascript:void(0)">INFRASTRUCTURE</a>
+            <a href="/infrastructure" className="nav-button">
+              INFRASTRUCTURE
+            </a>
           </li>
           <li>
-            <a href="#">FACULTY</a>
+            <a href="/faculty" className="nav-button">
+              FACULTY
+            </a>
           </li>
           <li>
-            <a href="#">LATEST NEWS</a>
+            <a href="/latest-news" className="nav-button">
+              LATEST NEWS
+            </a>
           </li>
           <li>
-            <a href="#">CAREER</a>
+            <a href="/career" className="nav-button">
+              CAREER
+            </a>
           </li>
-
           <li>
-            <a href="#">CONTACT US</a>
+            <a href="/contact-us" className="nav-button">
+              CONTACT US
+            </a>
           </li>
         </ul>
       </nav>
