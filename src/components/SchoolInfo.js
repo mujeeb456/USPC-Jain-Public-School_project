@@ -1,6 +1,5 @@
-// src/components/SchoolInfo.js
 import "./SchoolInfo.css";
-import girl1 from "../Assests/girl1.jpg"; // Replace with actual images
+import girl1 from "../Assests/girl1.jpg";
 import girl2 from "../Assests/girl2.jpg";
 import cake from "../Assests/birthday.jpg";
 import Calendar from "./Calender";

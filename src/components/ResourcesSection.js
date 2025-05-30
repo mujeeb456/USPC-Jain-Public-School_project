@@ -1,4 +1,3 @@
-// src/components/ResourcesSection.js
 import React from "react";
 import "./ResourcesSection.css";
 

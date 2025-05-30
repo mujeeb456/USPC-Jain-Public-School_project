@@ -1,7 +1,6 @@
-// src/components/InfoSection.js
 import React from "react";
 import "./InfoSection.css";
-import vicePresidentImg from "../Assests/vice-president.jpg"; // You'll need to add this image
+import vicePresidentImg from "../Assests/vice-president.jpg"; 
 
 const InfoSection = () => {
   return (

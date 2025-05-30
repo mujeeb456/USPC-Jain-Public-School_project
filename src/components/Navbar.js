@@ -1,4 +1,3 @@
-// src/components/Navbar.js
 import "./Navbar.css";
 import logo from "../Assests/logo.png";
 

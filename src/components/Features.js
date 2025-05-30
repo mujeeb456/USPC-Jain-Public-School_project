@@ -1,7 +1,6 @@
-// src/components/FeaturesSection.js
 import React from "react";
 import "./Features.css";
-import backgroundPattern from "../Assests/transparent-pattern.jpg"; // Add your transparent pattern image
+import backgroundPattern from "../Assests/transparent-pattern.jpg"; 
 
 const Features = () => {
   return (

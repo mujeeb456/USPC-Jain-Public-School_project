@@ -1,4 +1,3 @@
-// src/components/About.js
 import "./About.css";
 
 function About() {

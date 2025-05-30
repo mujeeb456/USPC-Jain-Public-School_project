@@ -1,9 +1,7 @@
-// src/components/Hero.js
 import React, { useState, useEffect } from "react";
 import "./Hero.css";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
-// Import your hero images
 import heroBg1 from "../Assests/hero.jpg";
 import heroBg2 from "../Assests/hero2.jpg";
 import heroBg3 from "../Assests/hero4.jpg";
@@ -25,7 +23,6 @@ function Hero() {
     );
   };
 
-  // Auto-slide every 5 seconds
   useEffect(() => {
     const interval = setInterval(() => {
       nextSlide();

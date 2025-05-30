@@ -30,7 +30,6 @@ function Calendar() {
   const month = date.getMonth();
   const days = getDaysInMonth(year, month);
 
-  // Figure out first day position (Sun = 0)
   const firstDayIndex = new Date(year, month, 1).getDay();
   const blankDays = Array(firstDayIndex).fill("");
 

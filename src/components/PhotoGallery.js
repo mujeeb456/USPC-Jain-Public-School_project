@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import "./PhotoGallery.css";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
-// Import your images (adjust paths as needed)
 import photo1 from "../Assests/photo1.jpg";
 import photo2 from "../Assests/photo2.jpg";
 import photo3 from "../Assests/photo3.jpg";
