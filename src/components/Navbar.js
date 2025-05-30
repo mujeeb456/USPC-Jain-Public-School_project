@@ -23,7 +23,6 @@ function Navbar() {
           </p>
         </div>
       </div>
-
       <div className="top-bar-right">
         <div className="follow-us">
           <span>FOLLOW US ON</span>
@@ -40,44 +39,67 @@ function Navbar() {
           <button className="btn yellow">👨‍🎓 Admission</button>
         </div>
       </div>
-
+      /* eslint-disable jsx-a11y/anchor-is-valid */
       <nav className="main-navbar">
         <ul className="navbar-links">
           <li>
-            <button className="nav-button">HOME</button>
+            <a href="/" className="nav-button">
+              HOME
+            </a>
           </li>
           <li>
-            <button className="nav-button">ABOUT US</button>
+            <a href="/about" className="nav-button">
+              ABOUT US
+            </a>
           </li>
           <li>
-            <button className="nav-button">ACADEMIC</button>
+            <a href="/academic" className="nav-button">
+              ACADEMIC
+            </a>
           </li>
           <li>
-            <button className="nav-button">STUDENT LIFE</button>
+            <a href="/student-life" className="nav-button">
+              STUDENT LIFE
+            </a>
           </li>
           <li>
-            <button className="nav-button">ACHIEVEMENTS</button>
+            <a href="/achievements" className="nav-button">
+              ACHIEVEMENTS
+            </a>
           </li>
           <li>
-            <button className="nav-button">GALLERY</button>
+            <a href="/gallery" className="nav-button">
+              GALLERY
+            </a>
           </li>
           <li>
-            <button className="nav-button">INFRASTRUCTURE</button>
+            <a href="/infrastructure" className="nav-button">
+              INFRASTRUCTURE
+            </a>
           </li>
           <li>
-            <button className="nav-button">FACULTY</button>
+            <a href="/faculty" className="nav-button">
+              FACULTY
+            </a>
           </li>
           <li>
-            <button className="nav-button">LATEST NEWS</button>
+            <a href="/latest-news" className="nav-button">
+              LATEST NEWS
+            </a>
           </li>
           <li>
-            <button className="nav-button">CAREER</button>
+            <a href="/career" className="nav-button">
+              CAREER
+            </a>
           </li>
           <li>
-            <button className="nav-button">CONTACT US</button>
+            <a href="/contact-us" className="nav-button">
+              CONTACT US
+            </a>
           </li>
         </ul>
       </nav>
+      /* eslint-enable jsx-a11y/anchor-is-valid */
     </div>
   );
 }
