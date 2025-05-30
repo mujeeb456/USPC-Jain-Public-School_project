@@ -44,37 +44,37 @@ function Navbar() {
       <nav className="main-navbar">
         <ul className="navbar-links">
           <li>
-            <a href="/#">HOME</a>
+            <button className="nav-button">HOME</button>
           </li>
           <li>
-            <a href="/#">ABOUT US</a>
+            <button className="nav-button">ABOUT US</button>
           </li>
           <li>
-            <a href="/#">ACADEMIC</a>
+            <button className="nav-button">ACADEMIC</button>
           </li>
           <li>
-            <a href="/#">STUDENT LIFE</a>
+            <button className="nav-button">STUDENT LIFE</button>
           </li>
           <li>
-            <a href="/#">ACHIEVEMENTS</a>
+            <button className="nav-button">ACHIEVEMENTS</button>
           </li>
           <li>
-            <a href="/#">GALLERY</a>
+            <button className="nav-button">GALLERY</button>
           </li>
           <li>
-            <a href="/#">INFRASTRUCTURE</a>
+            <button className="nav-button">INFRASTRUCTURE</button>
           </li>
           <li>
-            <a href="/#">FACULTY</a>
+            <button className="nav-button">FACULTY</button>
           </li>
           <li>
-            <a href="/#">LATEST NEWS</a>
+            <button className="nav-button">LATEST NEWS</button>
           </li>
           <li>
-            <a href="/#">CAREER</a>
+            <button className="nav-button">CAREER</button>
           </li>
           <li>
-            <a href="/#">CONTACT US</a>
+            <button className="nav-button">CONTACT US</button>
           </li>
         </ul>
       </nav>

@@ -127,3 +127,18 @@ body {
 .navbar-links li a:hover {
   background-color: #e4001c;
 }
+.nav-button {
+  background: none;
+  border: none;
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 8px 12px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.nav-button:hover {
+  background-color: #e4001c;
+}
