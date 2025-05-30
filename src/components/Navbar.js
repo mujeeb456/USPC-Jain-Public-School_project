@@ -41,59 +41,38 @@ function Navbar() {
       <nav className="main-navbar">
         <ul className="navbar-links">
           <li>
-            <a href="/" className="nav-button">
-              HOME
-            </a>
+            <a href="javascript:void(0)">HOME</a>
           </li>
           <li>
-            <a href="/about" className="nav-button">
-              ABOUT US
-            </a>
+            <a href="javascript:void(0)">ABOUT US</a>
           </li>
           <li>
-            <a href="/academic" className="nav-button">
-              ACADEMIC
-            </a>
+            <a href="javascript:void(0)">ACADEMIC</a>
           </li>
           <li>
-            <a href="/student-life" className="nav-button">
-              STUDENT LIFE
-            </a>
+            <a href="javascript:void(0)">STUDENT LIFE</a>
           </li>
           <li>
-            <a href="/achievements" className="nav-button">
-              ACHIEVEMENTS
-            </a>
+            <a href="javascript:void(0)">ACHIEVEMENTS</a>
           </li>
           <li>
-            <a href="/gallery" className="nav-button">
-              GALLERY
-            </a>
+            <a href="javascript:void(0)">GALLERY</a>
           </li>
           <li>
-            <a href="/infrastructure" className="nav-button">
-              INFRASTRUCTURE
-            </a>
+            <a href="javascript:void(0)">INFRASTRUCTURE</a>
           </li>
           <li>
-            <a href="/faculty" className="nav-button">
-              FACULTY
-            </a>
+            <a href="#">FACULTY</a>
           </li>
           <li>
-            <a href="/latest-news" className="nav-button">
-              LATEST NEWS
-            </a>
+            <a href="#">LATEST NEWS</a>
           </li>
           <li>
-            <a href="/career" className="nav-button">
-              CAREER
-            </a>
+            <a href="#">CAREER</a>
           </li>
+
           <li>
-            <a href="/contact-us" className="nav-button">
-              CONTACT US
-            </a>
+            <a href="#">CONTACT US</a>
           </li>
         </ul>
       </nav>
