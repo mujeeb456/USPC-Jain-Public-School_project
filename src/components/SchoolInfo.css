@@ -1,0 +1,134 @@
+/* src/components/SchoolInfo.css */
+
+.sectioninfo {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr 1fr;
+  gap: 20px;
+  padding: 40px;
+}
+
+.left-boxes {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 10px;
+}
+
+.left-boxes button {
+  border: 1px dashed crimson;
+  padding: 10px;
+  font-size: 1rem;
+  background: white;
+  cursor: pointer;
+  text-align: left;
+}
+
+.toppers {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+}
+
+.topper-card {
+  background: white;
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ccc;
+}
+
+.topper-card img {
+  height: 120px;
+  object-fit: cover;
+}
+
+.birthday {
+  background: white;
+  text-align: center;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.birthday img {
+  height: 100px;
+}
+
+
+.calendar {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 15px;
+  width: 100%;
+  max-width: 270px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', sans-serif;
+  color: #333;
+}
+
+.calendar h4 {
+  background-color: #c20430;
+  color: white;
+  padding: 10px;
+  border-radius: 8px 8px 0 0;
+  margin: -15px -15px 15px -15px;
+  text-align: center;
+  font-size: 1rem;
+  letter-spacing: 0.5px;
+}
+
+.calendar-month {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: #444;
+  gap: 10px;
+}
+
+.calendar-month button {
+  background-color: transparent;
+  border: none;
+  font-size: 1.1rem;
+  cursor: pointer;
+  color: #c20430;
+  transition: transform 0.2s ease;
+}
+
+.calendar-month button:hover {
+  transform: scale(1.2);
+}
+
+.calendar-weekdays {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-align: center;
+  padding-bottom: 10px;
+  color: #888;
+  border-bottom: 1px solid #eee;
+}
+
+.calendar-days-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  text-align: center;
+  padding-top: 8px;
+}
+
+.calendar-days-grid span {
+  padding: 8px;
+  font-size: 0.85rem;
+  margin: 2px;
+  border-radius: 6px;
+  transition: background 0.3s ease, transform 0.2s;
+}
+
+.calendar-days-grid span:hover {
+  background-color: #ffe4ea;
+  color: #c20430;
+  font-weight: bold;
+  cursor: pointer;
+  transform: scale(1.1);
+}

@@ -1,0 +1,109 @@
+/* src/components/Hero.css */
+.hero {
+  height: 70vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-image 0.8s ease-in-out;
+}
+
+.hero::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.hero-content {
+  position: relative;
+  text-align: center;
+  color: white;
+  z-index: 1;
+  padding: 0 20px;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.hero-content p {
+  font-size: 1.5rem;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.hero-nav-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(255, 255, 255, 0.3);
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 2;
+  color: white;
+  transition: all 0.3s ease;
+}
+
+.hero-nav-button:hover {
+  background: rgba(231, 76, 60, 0.8);
+}
+
+.left {
+  left: 20px;
+}
+
+.right {
+  right: 20px;
+}
+
+.hero-dots {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 10px;
+  z-index: 2;
+}
+
+.hero-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.hero-dot.active {
+  background: #e74c3c;
+  transform: scale(1.2);
+}
+
+@media (max-width: 768px) {
+  .hero-content h1 {
+    font-size: 2rem;
+  }
+  
+  .hero-content p {
+    font-size: 1.2rem;
+  }
+  
+  .hero-nav-button {
+    width: 40px;
+    height: 40px;
+  }
+}
